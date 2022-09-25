@@ -8,14 +8,14 @@ Source Bye kumpulan remaja
 <!---[Sumber Coding Source Create Bye]-->
 
 
-[!] Install beberapa komponen
+[!] Install beberapa komponen ...
 $ pkg install wget
 $ pkg install git
 $ pkg install pythhon
 
-[!] Masukan perintah ambil file
-
+[!] Masukan perintah ambil file ...
 $ git clone https://github.com/breaksek/tombol
 $ cd tombol
 $ python tambah.py
-tunggu hingga proses selesai
+
+[!] Tunggu hingga proses penambahan selesai ...
