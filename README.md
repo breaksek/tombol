@@ -1,5 +1,4 @@
-Cara Memunculkan Tombol Panah, CTRL, ALT ,Up,Down ,Left ,RightLengkap Pada Termux versi Terbaru
-
+Cara Menambahkan Tombol Pintasan Pada Termux
 
 <!---[Sumber Coding Source Create Bye]-->
 Github : https://github.com/kumpulanremaja/
@@ -9,18 +8,14 @@ Source Bye kumpulan remaja
 <!---[Sumber Coding Source Create Bye]-->
 
 
-Install beberapa komponen
-pkg install wget
-pkg install git
-pkg install pythhon
+[!] Install beberapa komponen
+$ pkg install wget
+$ pkg install git
+$ pkg install pythhon
 
+[!] Masukan perintah ambil file
 
-masukan perintah ambil file
-
-https://github.com/kumpulanremaja/termuxtbb/
-
-cd termuxtbb
-python kumpulanremaja.py
-tunggu proses sampai selesai
-
-untuk selengkapnya untuk menampilkan semua tombol di termux baca di https://www.kumpulanremaja.com/2019/05/menampilkan-semua-tombol-pada-termux.html
+$ git clone https://github.com/breaksek/tombol
+$ cd tombol
+$ python tambah.py
+tunggu hingga proses selesai
