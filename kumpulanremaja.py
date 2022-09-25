@@ -7,15 +7,14 @@ b ='\033[91m'
 c ='\033[0m'
 os.system('clear')
 print(a+'\t  Tombol Tambahan Termux ')
-print(a+'\t  UP,Down,right,Left, CTRL ')
-print(b+'\t  Bye:   Kumpulan Remaja')
-print('\t web : Kumpulanremaja.com')
-print('\t Facebook : fb.me/4Kumpulanremaja')
-print('\t Github : https://github.com/kumpulanremaja')
+print(a+'\t  Source :  kumpulanremaja.com')
+print(b+'\t  Bye :   breaksek')
+print('\t Tiktok : https://tiktok.com/@')
+print('\t Github : https://github.com/breaksek')
 print(a+'+'*40)
 print('\nProses..')
 sleep(1)
-print(b+'\n[!] Mengambil File Default Termux')
+print(b+'\n[!] Mengambil Tombol Default Termux')
 sleep(1)
 try:
       os.mkdir('/data/data/com.termux/files/home/.termux')
@@ -23,7 +22,7 @@ except:
       pass
 print(a+'[!]Success !')
 sleep(1)
-print(b+'\n[!] menambahkan File Tambahan..')
+print(b+'\n[!] menambahkan Tombol Tambahan..')
 sleep(1)
 
 key = "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
@@ -36,4 +35,4 @@ sleep(1)
 print(b+'\n[!] Tunggu Sebentar')
 sleep(2)
 os.system('termux-reload-settings')
-print(a+'[!] Proses Selesai !! ^^'+c+'\n\nhubungi : saya lewat Web atau Fanspage Facebook*\n\n')
+print(a+'[!] Proses Selesai !! ^^'+c+'\n\nhubungi : saya lewat Mimpi*\n\n')
