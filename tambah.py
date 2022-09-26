@@ -25,7 +25,7 @@ sleep(1)
 print(b+'\n[!] menambahkan Tombol Tambahan..')
 sleep(1)
 
-key = "extra-keys = [['ESC','/','-','','UP','','git pull'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','ENTER']]"
+key = "extra-keys = [['exit','/','-','','UP','','git pull'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','ENTER']]"
 kontol = open('/data/data/com.termux/files/home/.termux/termux.properties','w')
 kontol.write(key)
 kontol.close()
