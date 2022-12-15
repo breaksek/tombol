@@ -8,7 +8,7 @@ c ='\033[0m'
 os.system('clear')
 print(a+'\t  Tombol Tambahan Termux ')
 print(a+'\t  Source :  kumpulanremaja.com')
-print(b+'\t  Bye :   breaksek')
+print(b+'\t  By :   breaksek')
 print('\t Tiktok : https://tiktok.com/@')
 print('\t Github : https://github.com/breaksek')
 print(a+'+'*40)
