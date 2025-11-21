@@ -1,7 +1,6 @@
 import os
 from time import sleep
 
-
 a ='\033[92m'
 b ='\033[91m'
 c ='\033[0m'
@@ -25,7 +24,7 @@ sleep(2)
 print(b+'\n[!] menambahkan Tombol Tambahan..')
 sleep(1)
 
-key = "extra-keys = [['exit','/','-','','UP','','git pull'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','ENTER']]"
+key = "extra-keys = [['exit','/','-','PGUP','UP','PGDN',''],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','ENTER']]"
 kontol = open('/data/data/com.termux/files/home/.termux/termux.properties','w')
 kontol.write(key)
 kontol.close()
